@@ -1,0 +1,51 @@
+*,
+html {
+  --TextColor: rgba(255, 255, 255, 0.597);
+}
+
+html{
+    height: 100vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.menu{
+  margin: 10px;
+}
+.SideBar{
+    background-color: rgba(0, 0, 0, 0.259);
+    border-right: 1px solid;
+    border-right-color: rgba(101, 101, 101, 0.259);
+}
+
+
+.main_style {
+  background-color: rgb(2, 2, 37);
+}
+a{
+    color: var(--TextColor);
+}
+.hidden {
+  height: 0px;
+  overflow: hidden;
+  transition: 500ms;
+  color: var(--TextColor);
+}
+.showed {
+  height: auto;
+  overflow: showed;
+  transition: 500ms;
+}
+.button {
+  background-color: rgb(2, 2, 37);
+  color: var(--TextColor);
+  width: 70px;
+    margin-bottom: 5px;
+}
+.flex{
+    display: flex;
+    height: 100%;
+}

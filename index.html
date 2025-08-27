@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="src/main.js"></script>
+    <link rel="stylesheet" href="src/main.css">
 </head>
-<body>
-    <b>hola mundo</b>
+<body class="main_style">
+    <div class="flex">
+        <div class="SideBar">
+            <div class="menu">
+                <button onclick="show('t1')" class = "button">projects</button>
+            <div class="hidden" id="t1">
+                
+                <div onclick="show('vshell')" target="_blank">
+                    vshell
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div>
+            <div id="vshell" class="hidden" onload="changeActual('vshell')">This is vshell</div>
+            <div class="hidden">This website</div>
+        </div>
+    </div>
 </body>
 </html>
